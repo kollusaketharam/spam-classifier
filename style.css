@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+h1 {
+  color: #333;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.check {
+  background-color: #007bff;
+  color: white;
+}
+
+button.check:hover {
+  background-color: #0056b3;
+}
+
+button.clear {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.clear:hover {
+  background-color: #5a6268;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spam {
+  color: red;
+}
+
+.ham {
+  color: green;
+}
